@@ -99,7 +99,7 @@ body{
 }
 
 @media (min-width: 769px){
-    /*desktop*/
+   /*desktop*/
     .container {
         justify-content: center;
         align-items: center;
@@ -107,7 +107,7 @@ body{
         flex-direction: row;
         border-radius: 10px;
         height: 60vh;
-        width: 90vh;
+        width: 80vh;
     }
 
     .image {
@@ -137,16 +137,28 @@ body{
         font-weight: 400;
         color: hsl(228, 12%, 48%);
         font-size: 13px;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     
     .name{
         font-weight: 700;
-        font-size: 36px;
+        font-size: 34px;
         color: black;
         margin-top: 10px;
         margin-bottom: 10px;
         line-height: 1;
+    }
+
+    .description{
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .add-to-cart:hover{
+        transform: scale(1.05);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
     }
 
 }
